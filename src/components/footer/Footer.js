@@ -11,7 +11,11 @@ export default function Footer() {
     return (
       <List>
         <ListItem>
-          <ListItemText primary={text} sx={{ color: 'white' }} />
+          <ListItemText
+            primary={text}
+            sx={{ color: 'white' }}
+            class="linkHover"
+          />
         </ListItem>
       </List>
     );
