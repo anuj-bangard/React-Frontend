@@ -1,0 +1,33 @@
+.footerBg {
+  background: #1a181e;
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-bottom: 20px;
+}
+
+.footerGrid {
+  padding-top: 20px;
+}
+.footerLine {
+  height: 1px;
+  background: #ffffff;
+  opacity: 0.2;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.footerFlag {
+  display: flex;
+  float: right;
+}
+
+.footerImg {
+  padding-top: 8px;
+  margin-right: 20px;
+}
+
+.MuiBadge-badge {
+  color: black;
+  background-color: white;
+  margin: 15px -15px;
+}

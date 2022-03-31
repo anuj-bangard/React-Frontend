@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from './pages/Home';
+import Header from '../src/components/header/Header';
+import { createTheme, CssBaseline, ThemeProvider } from '@mui/material';
+import { StyledEngineProvider } from '@mui/material/styles';
+import Footer from './components/footer/Footer';
+
+const theme = createTheme({
+  typography: {
+    fontFamily: `"GalanoGrotesque", "Helvetica", "Arial", sans-serif`,
+    fontWeight: 400,
+  },
+});
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <StyledEngineProvider injectFirst>
+        <Header />
+        <Home />
+        <Footer />
+        <CssBaseline />
+      </StyledEngineProvider>
+    </ThemeProvider>
   );
 }
 

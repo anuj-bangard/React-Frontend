@@ -1,0 +1,24 @@
+.productCardTitle {
+  display: flex;
+  padding: 5px 0;
+}
+
+.productCardBody {
+  display: flex;
+  color: #4d4d4d;
+  font-size: 1rem;
+  padding: 5px 0px;
+}
+
+.productImg {
+  width: 352px;
+  height: 200px;
+  display: flex;
+  border-radius: 6px;
+}
+
+@media only screen and (max-width: 600px) {
+  .productImg {
+    width: 270px;
+  }
+}

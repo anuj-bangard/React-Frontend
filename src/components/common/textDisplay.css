@@ -1,0 +1,21 @@
+.textBg {
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  min-height: 70px;
+  margin: 20px 0;
+  display: flex;
+}
+
+.textBg:hover {
+  cursor: pointer;
+}
+
+.bodyText {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.MuiTooltip-tooltip {
+  background-color: #4d4d4d;
+}

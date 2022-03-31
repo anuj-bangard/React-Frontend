@@ -1,0 +1,29 @@
+.navbar {
+  padding-top: 23px;
+}
+
+.headerBg {
+  width: 100%;
+  height: 250px;
+  padding: 1% 15%;
+  /* /primary/blue */
+  background: #146eb4;
+}
+
+.headerBtnSignIn {
+  color: #fff;
+}
+
+.headerBtnPc {
+  background-color: #fff;
+  font-weight: 400;
+}
+
+.headerBtnPc:hover {
+  background-color: #fffc;
+}
+@media only screen and (max-width: 600px) {
+  .mobileGrid {
+    text-align: center;
+  }
+}

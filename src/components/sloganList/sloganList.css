@@ -1,0 +1,41 @@
+.sloganDivider {
+  height: 1px;
+  margin-bottom: 5%;
+  margin-top: 7%;
+  /* /black/85 */
+  background: #d9d9d9;
+}
+
+.sloganListSubHeading {
+  color: #1a181e;
+}
+
+.downloadBtn {
+  align-items: flex-end;
+}
+.MuiPaginationItem-root {
+  color: #146eb4;
+}
+
+.MuiPagination-root .MuiPagination-ul {
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+.MuiPagination-root .MuiPagination-ul li:last-child {
+  display: flex;
+  position: absolute;
+  right: 0;
+  align-items: center;
+}
+.MuiPagination-root .MuiPagination-ul li:last-child > button::before {
+  margin-right: 4px;
+  content: 'Next';
+}
+
+@media only screen and (max-width: 600px) {
+  .MuiPagination-root .MuiPagination-ul li:last-child > button::before {
+    content: '';
+  }
+}

@@ -1,0 +1,22 @@
+.featureCardTitle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.featureCardBody {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #4d4d4d;
+  font-size: 1rem;
+  padding: 10px 10px;
+}
+
+.featureImg {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  margin: auto;
+}

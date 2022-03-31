@@ -1,0 +1,49 @@
+.sloganBg {
+  width: 70%;
+  /* colors/black/100 */
+  background: #ffffff;
+  /* shadows/card */
+  box-shadow: 0px 2px 8px rgba(26, 24, 30, 0.06);
+  border-radius: 8px;
+  margin-top: -120px;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-left: 12%;
+  margin-bottom: 6%;
+  padding-right: 12%;
+  padding-bottom: 5%;
+}
+
+.heading {
+  padding-top: 6%;
+  padding-bottom: 2%;
+}
+
+.subHeading {
+  font-style: normal;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  color: #4d4d4d;
+}
+
+.subtext {
+  padding-bottom: 3%;
+  padding-top: 4%;
+  /* colors/black/30 */
+  color: #4d4d4d;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.generateSloganBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 7%;
+  margin-top: 7%;
+  width: 204px;
+  height: 50px;
+  margin-left: 0;
+}
