@@ -31,7 +31,9 @@
   background-color: white;
   margin: 15px -15px;
 }
-
-.linkHover:hover {
+.footerLink {
+  color: #fff;
+}
+.footerLink:hover {
   cursor: pointer;
 }
