@@ -39,7 +39,7 @@ export default function Footer() {
           <List>
             <ListItem>
               <Badge badgeContent={3} color="primary">
-                <ListItemText primary="Jobs" sx={{ color: 'white' }} />
+                <ListItemText primary="Jobs" className="footerLink" />
               </Badge>
             </ListItem>
           </List>
